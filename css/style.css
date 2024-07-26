@@ -1,0 +1,85 @@
+.bt-categorias{
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #33ff00;
+    border-radius: 5px;
+    background-color: #33ff00;
+    cursor: pointer;
+}
+
+.bt-categorias:hover{
+    background-color: #489933;
+}
+
+.bt-produtos{
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #ffbb00;
+    border-radius: 5px;
+    background-color: #ffbb00;
+    cursor: pointer;
+}
+
+.bt-produtos:hover{
+    background-color: #a7831f;
+}
+
+.bt-vendas{
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+.bt-vendas:hover{
+    background-color: rgb(151, 0, 0);
+}
+
+table,th{
+    border: 1px solid #000;
+}
+
+.white-sapce{
+    background-color: blue;
+    width: 400px;
+    height: auto;
+}
+
+.bt-gray{
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.bt-gray:hover{
+    background-color: whitesmoke;
+}
+
+.bt-cadastrar{
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #00aeff;
+    border-radius: 5px;
+    background-color: #00aeff;
+    cursor: pointer;
+}
+.bt-cadastrar:hover{
+    background-color: #006b9c;
+}
+
+/* Casses genéricas */
+
+.inline{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}

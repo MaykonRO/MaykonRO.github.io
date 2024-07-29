@@ -72,6 +72,13 @@ table,th{
     background-color: #006b9c;
 }
 
+/* página de vendas */
+
+.card-p{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 /* Casses genéricas */
 
 .inline{

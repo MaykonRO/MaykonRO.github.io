@@ -1,3 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+th{
+    width: 100px ;
+}
+
 .bt-categorias{
     margin: 0 10px;
     padding: 5px 10px;
@@ -74,10 +83,87 @@ table,th{
 
 /* página de vendas */
 
-.card-p{
-    border: 1px solid black;
-    border-radius: 5px;
+.container-inferior{
+    display: flex;
+    flex-direction: row;
 }
+
+.container-cards{
+    display: flex;
+    flex-direction: inline;
+    flex-wrap: wrap;
+    width: auto;
+    
+}
+
+/* carrinho */
+
+    .container-carrinho{
+        border: 1px solid black;
+        background-color: rgb(255, 71, 34);
+        width: 100%;
+        max-width: 310px;
+        margin-right: 5px;
+
+    }
+
+/* arise */
+
+    .container-arise{
+        margin: 5px;
+    }
+
+    .bt-pesquisar{
+        display: flex;
+        width: 100%;
+        padding: 5px 10px;
+        border: 1px solid #ff624a;
+        border-radius: 5px;
+        background-color: #ff624a;
+        cursor: pointer;
+
+    }
+
+    .bt-pesquisar:hover{
+        background-color: #bf4735;
+    }
+
+    .categorias{
+        border: 1px solid black;
+    }
+
+/* cards */
+
+    .card-p{
+        border: 1px solid black;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 190px;
+        margin: 5px;
+    }
+
+    .quad{
+        background-color: #006b9c;
+        width: 170px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .adicionar-btn{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .add-symbol{
+        width: 50px;
+    }
+
+/* fim da pagina vendas */
 
 /* Casses genéricas */
 
@@ -89,4 +175,18 @@ table,th{
 .column{
     display: flex;
     flex-direction: column;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.pad10d{
+    padding-bottom: 10px;
+}
+
+.espaco-entre{
+    display: flex;
+    justify-content: space-around;
 }

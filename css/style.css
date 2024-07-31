@@ -165,6 +165,17 @@ table,th{
 
 /* fim da pagina vendas */
 
+/* pagina de produtos */
+
+    .tabela{
+        background-color: #ffbb00;
+    }
+
+    .cadastrar{
+        background-color: #ffbb00;
+    }
+/* fim da pagina de produtos*/
+
 /* Casses genéricas */
 
 .inline{
@@ -186,7 +197,15 @@ table,th{
     padding-bottom: 10px;
 }
 
+.marg05l{
+    margin: 0 5px;
+}
+
 .espaco-entre{
     display: flex;
     justify-content: space-around;
+}
+
+.input-size{
+    width: 100%;
 }

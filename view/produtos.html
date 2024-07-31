@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="botoes-topo inline">
+    <div class="botoes-topo inline pad10d">
         <div >
             <button type="button" class="bt-voltar" onclick="location.href='index.html'">VOLTAR</button>
         </div>
@@ -27,33 +27,47 @@
     <div class="inline">
         <div class="cadastrar">
             <form action="" method="get">
-                <div>
-                    <label for="">Categoria</label>
-                    <select name="" id=""></select>
+                <div class="column ">
+                    <div class="center pad10d">
+                        <label for="" class="marg05l">Categoria</label>
+                        <select name="" id=""></select>
+                    </div>
+                    <div class="center pad10d">
+                        <label for="categoria" class="marg05l">Nome</label>
+                        <input type="text" name="cad_nome" id="nome" class="input-size marg05l"/>
+                    </div>
+
                 </div>
                 <div class="column">
-                    <label for="categoria">nome</label>
-                    <input type="text" name="cad_nome" id="nome">
+                    <div class="inline center pad10d">
+                        <label for="" class="marg05l" class="marg05l">Imagem: </label>
+                        <input type="file" class="">
+
+                    </div>
+                    <div class="center pad10d bt-">
+                        <button class="bt-cadastrar">enviar</button>
+
+                    </div>
                 </div>
-                <div>
-                    <label for="">foto</label>
-                    <input type="file"><button>enviar</button>
+
+                <div class="column pad10d">
+                    <div class="center pad10d">
+                        <label for="" class="marg05l">Valor</label>
+                        <input type="number" name="" id="" class="marg05l input-size"/>
+                    </div>
+                    <div class="center">
+                        <label for="" class="marg05l">Quantidade</label>
+                        <input type="number" name="" id="" class="marg05l input-size"/>
+                    </div>
                 </div>
-                <div>
-                    <label for="">valor</label>
-                    <input type="number" name="" id="">
-                </div>
-                <div>
-                    <label for="">quantidade</label>
-                    <input type="number" name="" id="">
-                </div>
-                <div>
+
+                <div class="center">
                     <input type="submit" value="Cadastrar" class="bt-cadastrar">
                 </div>
             </form>
         </div> <!--  -->
-        <div class="tabela">
-            <table>
+        <div>
+            <table class="tabela">
                 <h2>Produtos Cadastrados</h2>
                 <tr>
                     <th>#CD</th>

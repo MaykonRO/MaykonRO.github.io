@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="botoes-topo inline">
+    <div class="botoes-topo inline pad10d">
         <div>
             <button type="button" class="bt-voltar" onclick="location.href='index.html'">VOLTAR</button>
         </div>
@@ -27,21 +27,25 @@
 
     </div> <!-- fim dos botoes-topo -->
     <div class="inline">
-        <div>
-            <form action="" method="get">
-                <div class="column">
-                    <label for="categoria">cadastro de categoria</label>
-                    <input type="text" name="cad_categoria" id="categoria">
+        <div class="marg05l">
+            <form action="" method="get" class="cad_categoria">
+                <div class="column pad10d">
+                    <label for="categoria" class="pad10d marg05l"><h2>Cadastro de Categoria</h2></label>
+                    <input type="text" name="cad_categoria" id="categoria" class="marg05l"/>
                 </div>
-                <button type="submit" class="bt-cadastrar">Cadastrar</button>
+                <div class="center pad10d">
+                    <button type="submit" class="bt-cadastrar">Cadastrar</button>
+                </div>
 
             </form>
         </div>
-        <div class="tabela">
+        <div class="tb-categoria marg05l" >
             <table>
 
+                <div class="pad10d">
+                    <h2>Produtos Cadastrados</h2>
 
-                <h2>Produtos Cadastrados</h2>
+                </div>
 
 
                 <tr>

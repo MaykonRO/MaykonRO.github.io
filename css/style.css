@@ -46,6 +46,19 @@ th{
     background-color: rgb(151, 0, 0);
 }
 
+.bt-voltar{
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #11d2d2;
+    border-radius: 5px;
+    background-color: #11d2d2;
+    cursor: pointer;
+}
+
+.bt-voltar:hover{
+    background-color: #208d8d;
+}
+
 table,th{
     border: 1px solid #000;
 }
@@ -167,7 +180,7 @@ table,th{
 
 /* pagina de produtos */
 
-    .tabela{
+    .tb-prod{
         background-color: #ffbb00;
     }
 
@@ -175,6 +188,20 @@ table,th{
         background-color: #ffbb00;
     }
 /* fim da pagina de produtos*/
+
+/* pagina de categorias */
+
+    .cad_categoria{
+        background-color: #489933;
+        color: white;
+    }
+    
+    .tb-categoria{
+        background-color: #489933;
+        color: white;
+    }
+
+/* fim da pagina de categorias */
 
 /* Casses genéricas */
 

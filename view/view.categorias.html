@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="">
+        <div class="Navbar">
+            <div>
+                <h2>Cadastro de Categoria</h2>
+
+            </div>
+            <div class="Navbar__Link Navbar__Link-toggle">
+                <i class="fas fa-bars"></i>
+              </div>
+            <nav class="NavBar_items">
+                <div class="">
+                    <button type="button" class="bt-voltar" onclick="location.href='index.html'">VOLTAR</button>
+                </div>
+        
+                <div class="NavBar_link">
+                    <button type="button" class="bt-categorias" onclick="location.href='view.categorias.html'">Categorias</button>
+                </div>
+                <div class="NavBar_link">
+        
+                    <button type="button" class="bt-gray" onclick="location.href='view.produtos.html'">Produtos</button>
+                </div>
+                <div class="NavBar_link">
+                    <button type="button" class="bt-gray" onclick="location.href='view.vender.html'">Vendas</button>
+                </div> <!-- fim dos botoes-topo -->
+
+            </nav>
+            <nav class="NavBar_items Navbar__Items--right">
+                <div class="NavBar_link">
+
+                    <button type="button">Login</button>
+                </div>
+                <div class="NavBar_link">
+
+                    <button type="button">Cadastrar</button>
+                </div>
+            </nav>
+
+        </div>
+
+    </div> <!-- fim dos botoes-topo -->
+    <div class="inline teste">
+        <div class="marg05l">
+            <form action="" method="get" class="cad_categoria">
+                <div class="column pad10d">
+                    <label for="categoria" class="pad10d marg05l"><h2>Cadastro de Categoria</h2></label>
+                    <input type="text" name="cad_categoria" id="categoria" class="marg05l"/>
+                </div>
+                <div class="center pad10d">
+                    <button type="submit" class="bt-cadastrar">Cadastrar</button>
+                </div>
+
+            </form>
+        </div>
+        <div class="tb-categoria marg05l" >
+            <table>
+
+                <div class="pad10d">
+                    <h2>Produtos Cadastrados</h2>
+
+                </div>
+
+
+                <tr>
+                    <th>#CD</th>
+                    <th>Nome</th>
+                    <th>#Opções</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div> <!-- fim da tabela -->
+    </div> <!-- fim do inline -->
+</body>
+
+</html>
